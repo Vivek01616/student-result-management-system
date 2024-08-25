@@ -1,0 +1,28 @@
+.card.box {
+    width: 200px;
+    height: 200px;
+    transition: box-shadow 0.3s ease-in-out; 
+    border-radius: 30px;
+
+}
+body {
+    background-color: #f0f8ff; /* Light background color */
+  }
+
+.box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.btn-primary {
+    width: 150px; /* Set a fixed width */
+    height: 42px; /* Set a fixed height */
+    padding: 0; /* Remove default padding */
+    border-radius: 105px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
+    margin-left:150px;
+    font-size: 16px; /* Font size */
+    display: flex; /* Use flexbox to center text */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    text-align: center; /* Center text alignment */
+  }
