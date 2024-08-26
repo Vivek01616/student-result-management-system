@@ -15,6 +15,7 @@ import ChangePassword from './Frontend/ChangePassword';
 import ResultsSection from './Frontend/ResultsSection';
 import StudentLogin from './Frontend/Studentlogin';
 import Adminlogin from './Frontend/Adminlogin';
+import ReactDOM from 'react-dom/client';
 
 function App() {
   return (<>
@@ -23,8 +24,8 @@ function App() {
        <Router>
          <Routes>
                 <Route path='/' element={<Dashboard></Dashboard>}/>
-                <Route path="/facultylogin" element={<Adminlogin/>} />
-                <Route path="/studentlogin" element={<StudentLogin />}></Route>
+                <Route path="/faculty-login" element={<Adminlogin/>} />
+                <Route path="/student-login" element={<StudentLogin />}></Route>
                 <Route path="/admin" element={<AdminDashboard />}>
                     <Route path="manage-students" element={<ManageStudents />} />
                     <Route path="manage-subjects" element={<ManageSubjects />} />
